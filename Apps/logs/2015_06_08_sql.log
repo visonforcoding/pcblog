@@ -1,0 +1,412 @@
+[Mon, 08 Jun 15 00:01:50 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:01:50 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:01:50 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_blog'
+[Mon, 08 Jun 15 00:01:50 +0800][INFO] DESCRIBE `cwp_blog`
+[Mon, 08 Jun 15 00:01:50 +0800][INFO] SELECT `cwp_blog`.`id`, `cwp_blog`.`category_id`, `cwp_blog`.`user_id`, `cwp_blog`.`title`, `cwp_blog`.`guide`, `cwp_blog`.`cover`, `cwp_blog`.`content`, `cwp_blog`.`keywords`, `cwp_blog`.`description`, `cwp_blog`.`ctime`, `cwp_blog`.`updatetime`, `cwp_blog`.`hits` FROM `cwp_blog`
+[Mon, 08 Jun 15 00:01:50 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:01:50 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:01:50 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:01:50 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_blogcat'
+[Mon, 08 Jun 15 00:01:50 +0800][INFO] DESCRIBE `cwp_blogcat`
+[Mon, 08 Jun 15 00:01:50 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:01:50 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:01:50 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:01:50 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:01:50 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:01:50 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:01:50 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:01:50 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:01:54 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:01:54 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:01:54 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:01:54 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:01:54 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu`
+[Mon, 08 Jun 15 00:01:54 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:01:57 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:01:57 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:03:19 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:03:19 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:03:19 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:03:19 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:03:19 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:11:37 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:11:37 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:11:37 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:11:37 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:11:37 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:17:39 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:17:39 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:17:39 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:17:39 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:17:39 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu`
+[Mon, 08 Jun 15 00:17:39 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:19:01 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:19:01 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:19:01 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:19:01 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:19:01 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu`
+[Mon, 08 Jun 15 00:19:01 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:31:55 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:31:55 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:31:55 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:31:55 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:31:55 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu`
+[Mon, 08 Jun 15 00:31:55 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:31:58 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:31:58 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:31:58 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:31:58 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:31:58 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu`
+[Mon, 08 Jun 15 00:31:58 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:36:08 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:36:08 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:36:08 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:36:08 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:36:08 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu`
+[Mon, 08 Jun 15 00:36:08 +0800][INFO] INSERT INTO `cwp_menu` (`name`, `node`, `pid`, `class`, `rank`, `is_menu`, `status`, `remark`) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+[Mon, 08 Jun 15 00:36:10 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:36:10 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:36:10 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_blog'
+[Mon, 08 Jun 15 00:36:10 +0800][INFO] DESCRIBE `cwp_blog`
+[Mon, 08 Jun 15 00:36:10 +0800][INFO] SELECT `cwp_blog`.`id`, `cwp_blog`.`category_id`, `cwp_blog`.`user_id`, `cwp_blog`.`title`, `cwp_blog`.`guide`, `cwp_blog`.`cover`, `cwp_blog`.`content`, `cwp_blog`.`keywords`, `cwp_blog`.`description`, `cwp_blog`.`ctime`, `cwp_blog`.`updatetime`, `cwp_blog`.`hits` FROM `cwp_blog`
+[Mon, 08 Jun 15 00:36:10 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:36:10 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:36:10 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:36:10 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_blogcat'
+[Mon, 08 Jun 15 00:36:10 +0800][INFO] DESCRIBE `cwp_blogcat`
+[Mon, 08 Jun 15 00:36:10 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:36:10 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:36:10 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:36:10 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:36:10 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:36:10 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:36:10 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:36:10 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:36:29 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:36:29 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:36:29 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_blog'
+[Mon, 08 Jun 15 00:36:29 +0800][INFO] DESCRIBE `cwp_blog`
+[Mon, 08 Jun 15 00:36:29 +0800][INFO] SELECT `cwp_blog`.`id`, `cwp_blog`.`category_id`, `cwp_blog`.`user_id`, `cwp_blog`.`title`, `cwp_blog`.`guide`, `cwp_blog`.`cover`, `cwp_blog`.`content`, `cwp_blog`.`keywords`, `cwp_blog`.`description`, `cwp_blog`.`ctime`, `cwp_blog`.`updatetime`, `cwp_blog`.`hits` FROM `cwp_blog`
+[Mon, 08 Jun 15 00:36:29 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:36:29 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:36:29 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:36:29 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_blogcat'
+[Mon, 08 Jun 15 00:36:29 +0800][INFO] DESCRIBE `cwp_blogcat`
+[Mon, 08 Jun 15 00:36:29 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:36:29 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:36:29 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:36:29 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:36:29 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:36:29 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:36:29 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:36:29 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:39:14 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:39:14 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:39:14 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:39:14 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:39:14 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:40:34 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:40:34 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:40:34 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:40:34 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:40:34 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:40:36 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:40:36 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:40:36 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:40:36 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:40:36 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:40:40 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:40:40 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:40:40 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_blog'
+[Mon, 08 Jun 15 00:40:40 +0800][INFO] DESCRIBE `cwp_blog`
+[Mon, 08 Jun 15 00:40:40 +0800][INFO] SELECT `cwp_blog`.`id`, `cwp_blog`.`category_id`, `cwp_blog`.`user_id`, `cwp_blog`.`title`, `cwp_blog`.`guide`, `cwp_blog`.`cover`, `cwp_blog`.`content`, `cwp_blog`.`keywords`, `cwp_blog`.`description`, `cwp_blog`.`ctime`, `cwp_blog`.`updatetime`, `cwp_blog`.`hits` FROM `cwp_blog`
+[Mon, 08 Jun 15 00:40:40 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:40:40 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:40:40 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:40:40 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_blogcat'
+[Mon, 08 Jun 15 00:40:40 +0800][INFO] DESCRIBE `cwp_blogcat`
+[Mon, 08 Jun 15 00:40:40 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:40:40 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:40:40 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:40:40 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:40:40 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:40:40 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:40:40 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:40:40 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:40:42 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:40:42 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:40:42 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:40:42 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:40:42 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:40:46 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:40:46 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:40:46 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:40:46 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:40:46 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:41:09 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:41:09 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:41:09 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:41:09 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:41:09 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:41:23 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:41:23 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:41:23 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:41:23 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:41:23 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:41:27 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:41:27 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:41:27 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:41:27 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:41:27 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu`
+[Mon, 08 Jun 15 00:41:27 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:41:34 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:41:34 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:41:34 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:41:34 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:41:34 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu`
+[Mon, 08 Jun 15 00:41:34 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:42:19 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:42:19 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:42:19 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:42:19 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:42:19 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu`
+[Mon, 08 Jun 15 00:42:20 +0800][INFO] INSERT INTO `cwp_menu` (`name`, `node`, `pid`, `class`, `rank`, `is_menu`, `status`, `remark`) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+[Mon, 08 Jun 15 00:42:26 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:42:26 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:42:26 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:42:26 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:42:26 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu`
+[Mon, 08 Jun 15 00:42:26 +0800][INFO] INSERT INTO `cwp_menu` (`name`, `node`, `pid`, `class`, `rank`, `is_menu`, `status`, `remark`) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+[Mon, 08 Jun 15 00:42:32 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:42:32 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:42:32 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:42:32 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:42:32 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu`
+[Mon, 08 Jun 15 00:42:32 +0800][INFO] INSERT INTO `cwp_menu` (`name`, `node`, `pid`, `class`, `rank`, `is_menu`, `status`, `remark`) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+[Mon, 08 Jun 15 00:43:45 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:43:45 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:43:45 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:43:45 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:43:45 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu`
+[Mon, 08 Jun 15 00:43:45 +0800][INFO] INSERT INTO `cwp_menu` (`name`, `node`, `pid`, `class`, `rank`, `is_menu`, `status`, `remark`) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+[Mon, 08 Jun 15 00:43:47 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:43:47 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:43:47 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_blog'
+[Mon, 08 Jun 15 00:43:47 +0800][INFO] DESCRIBE `cwp_blog`
+[Mon, 08 Jun 15 00:43:47 +0800][INFO] SELECT `cwp_blog`.`id`, `cwp_blog`.`category_id`, `cwp_blog`.`user_id`, `cwp_blog`.`title`, `cwp_blog`.`guide`, `cwp_blog`.`cover`, `cwp_blog`.`content`, `cwp_blog`.`keywords`, `cwp_blog`.`description`, `cwp_blog`.`ctime`, `cwp_blog`.`updatetime`, `cwp_blog`.`hits` FROM `cwp_blog`
+[Mon, 08 Jun 15 00:43:47 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:43:47 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:43:47 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:43:47 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_blogcat'
+[Mon, 08 Jun 15 00:43:47 +0800][INFO] DESCRIBE `cwp_blogcat`
+[Mon, 08 Jun 15 00:43:47 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:43:47 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:43:47 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:43:47 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:43:47 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:43:47 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:43:47 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:43:47 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:43:55 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:43:55 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:43:55 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:43:55 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:43:55 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:43:58 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:43:58 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:43:58 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:43:58 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:43:58 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:44:12 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:44:12 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:44:12 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:44:12 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:44:12 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:44:28 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:44:28 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:44:28 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:44:28 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:44:28 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:44:40 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:44:40 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:44:40 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_blog'
+[Mon, 08 Jun 15 00:44:40 +0800][INFO] DESCRIBE `cwp_blog`
+[Mon, 08 Jun 15 00:44:40 +0800][INFO] SELECT `cwp_blog`.`id`, `cwp_blog`.`category_id`, `cwp_blog`.`user_id`, `cwp_blog`.`title`, `cwp_blog`.`guide`, `cwp_blog`.`cover`, `cwp_blog`.`content`, `cwp_blog`.`keywords`, `cwp_blog`.`description`, `cwp_blog`.`ctime`, `cwp_blog`.`updatetime`, `cwp_blog`.`hits` FROM `cwp_blog`
+[Mon, 08 Jun 15 00:44:40 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:44:40 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:44:40 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:44:40 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_blogcat'
+[Mon, 08 Jun 15 00:44:40 +0800][INFO] DESCRIBE `cwp_blogcat`
+[Mon, 08 Jun 15 00:44:40 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:44:40 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:44:40 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:44:40 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:44:40 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:44:40 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:44:40 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:44:40 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:44:44 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:44:44 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:44:44 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:44:44 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:44:44 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu`
+[Mon, 08 Jun 15 00:44:44 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:44:47 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:44:47 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:44:47 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:44:47 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:44:47 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu`
+[Mon, 08 Jun 15 00:44:47 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:44:59 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:44:59 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:44:59 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:44:59 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:44:59 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:45:05 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:45:05 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:45:05 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:45:05 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:45:05 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:45:10 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:45:10 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:45:10 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:45:10 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:45:10 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu`
+[Mon, 08 Jun 15 00:45:10 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:45:53 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:45:53 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:45:53 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:45:53 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:45:53 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:45:56 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:45:56 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:45:56 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:45:56 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:45:56 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:46:49 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:46:49 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:46:49 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:46:49 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:46:49 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:46:53 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:46:53 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:46:53 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:46:53 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:46:53 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:46:56 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:46:56 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:46:56 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:46:56 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:46:56 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:46:59 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:46:59 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:46:59 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:46:59 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:46:59 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu`
+[Mon, 08 Jun 15 00:46:59 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:47:03 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:47:03 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:47:03 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_blog'
+[Mon, 08 Jun 15 00:47:03 +0800][INFO] DESCRIBE `cwp_blog`
+[Mon, 08 Jun 15 00:47:03 +0800][INFO] SELECT `cwp_blog`.`id`, `cwp_blog`.`category_id`, `cwp_blog`.`user_id`, `cwp_blog`.`title`, `cwp_blog`.`guide`, `cwp_blog`.`cover`, `cwp_blog`.`content`, `cwp_blog`.`keywords`, `cwp_blog`.`description`, `cwp_blog`.`ctime`, `cwp_blog`.`updatetime`, `cwp_blog`.`hits` FROM `cwp_blog`
+[Mon, 08 Jun 15 00:47:03 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:47:03 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:47:03 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:47:03 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_blogcat'
+[Mon, 08 Jun 15 00:47:03 +0800][INFO] DESCRIBE `cwp_blogcat`
+[Mon, 08 Jun 15 00:47:03 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:47:03 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:47:03 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:47:03 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:47:03 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:47:03 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:47:03 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:47:03 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:47:05 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:47:05 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:47:05 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_blogcat'
+[Mon, 08 Jun 15 00:47:05 +0800][INFO] DESCRIBE `cwp_blogcat`
+[Mon, 08 Jun 15 00:47:05 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat`
+[Mon, 08 Jun 15 00:47:05 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:47:05 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:47:05 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:47:11 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:47:11 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:47:11 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_blog'
+[Mon, 08 Jun 15 00:47:11 +0800][INFO] DESCRIBE `cwp_blog`
+[Mon, 08 Jun 15 00:47:11 +0800][INFO] SELECT `cwp_blog`.`id`, `cwp_blog`.`category_id`, `cwp_blog`.`user_id`, `cwp_blog`.`title`, `cwp_blog`.`guide`, `cwp_blog`.`cover`, `cwp_blog`.`content`, `cwp_blog`.`keywords`, `cwp_blog`.`description`, `cwp_blog`.`ctime`, `cwp_blog`.`updatetime`, `cwp_blog`.`hits` FROM `cwp_blog`
+[Mon, 08 Jun 15 00:47:11 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:47:11 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:47:11 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:47:11 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_blogcat'
+[Mon, 08 Jun 15 00:47:11 +0800][INFO] DESCRIBE `cwp_blogcat`
+[Mon, 08 Jun 15 00:47:11 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:47:11 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:47:11 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:47:11 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:47:11 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:47:11 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:47:11 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:47:11 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:47:21 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:47:21 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:47:21 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_blogcat'
+[Mon, 08 Jun 15 00:47:21 +0800][INFO] DESCRIBE `cwp_blogcat`
+[Mon, 08 Jun 15 00:47:21 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat`
+[Mon, 08 Jun 15 00:47:21 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:47:21 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:47:21 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:47:27 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:47:27 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:47:27 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_blog'
+[Mon, 08 Jun 15 00:47:27 +0800][INFO] DESCRIBE `cwp_blog`
+[Mon, 08 Jun 15 00:47:27 +0800][INFO] SELECT `cwp_blog`.`id`, `cwp_blog`.`category_id`, `cwp_blog`.`user_id`, `cwp_blog`.`title`, `cwp_blog`.`guide`, `cwp_blog`.`cover`, `cwp_blog`.`content`, `cwp_blog`.`keywords`, `cwp_blog`.`description`, `cwp_blog`.`ctime`, `cwp_blog`.`updatetime`, `cwp_blog`.`hits` FROM `cwp_blog`
+[Mon, 08 Jun 15 00:47:27 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:47:27 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:47:27 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:47:28 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_blogcat'
+[Mon, 08 Jun 15 00:47:28 +0800][INFO] DESCRIBE `cwp_blogcat`
+[Mon, 08 Jun 15 00:47:28 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:47:28 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:47:28 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:47:28 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:47:28 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:47:28 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:47:28 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:47:28 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:50:36 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:50:36 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:50:36 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_blog'
+[Mon, 08 Jun 15 00:50:36 +0800][INFO] DESCRIBE `cwp_blog`
+[Mon, 08 Jun 15 00:50:36 +0800][INFO] SELECT `cwp_blog`.`id`, `cwp_blog`.`category_id`, `cwp_blog`.`user_id`, `cwp_blog`.`title`, `cwp_blog`.`guide`, `cwp_blog`.`cover`, `cwp_blog`.`content`, `cwp_blog`.`keywords`, `cwp_blog`.`description`, `cwp_blog`.`ctime`, `cwp_blog`.`updatetime`, `cwp_blog`.`hits` FROM `cwp_blog`
+[Mon, 08 Jun 15 00:50:36 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:50:36 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:50:36 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:50:36 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_blogcat'
+[Mon, 08 Jun 15 00:50:36 +0800][INFO] DESCRIBE `cwp_blogcat`
+[Mon, 08 Jun 15 00:50:36 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:50:36 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:50:36 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:50:36 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:50:36 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:50:36 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:50:36 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:50:36 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat` WHERE `cwp_blogcat`.`id` = :0 LIMIT 1
+[Mon, 08 Jun 15 00:50:38 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:50:38 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:50:38 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_blogcat'
+[Mon, 08 Jun 15 00:50:38 +0800][INFO] DESCRIBE `cwp_blogcat`
+[Mon, 08 Jun 15 00:50:38 +0800][INFO] SELECT `cwp_blogcat`.`id`, `cwp_blogcat`.`pid`, `cwp_blogcat`.`name`, `cwp_blogcat`.`rank`, `cwp_blogcat`.`depth`, `cwp_blogcat`.`ctime` FROM `cwp_blogcat`
+[Mon, 08 Jun 15 00:50:38 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:50:38 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:50:38 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:50:45 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:50:45 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:50:45 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:50:45 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:50:45 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`
+[Mon, 08 Jun 15 00:50:50 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_user'
+[Mon, 08 Jun 15 00:50:50 +0800][INFO] DESCRIBE `cwp_user`
+[Mon, 08 Jun 15 00:50:50 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='cwp_menu'
+[Mon, 08 Jun 15 00:50:50 +0800][INFO] DESCRIBE `cwp_menu`
+[Mon, 08 Jun 15 00:50:50 +0800][INFO] SELECT `cwp_menu`.`id`, `cwp_menu`.`name`, `cwp_menu`.`node`, `cwp_menu`.`pid`, `cwp_menu`.`class`, `cwp_menu`.`rank`, `cwp_menu`.`is_menu`, `cwp_menu`.`status`, `cwp_menu`.`remark` FROM `cwp_menu` WHERE `cwp_menu`.`is_menu` = '1' ORDER BY `cwp_menu`.`rank`

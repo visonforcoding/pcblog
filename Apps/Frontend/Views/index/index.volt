@@ -1,0 +1,39 @@
+{% extends "layout/layout.volt" %}
+{% block title %}小绾的博客{% endblock %}
+{% block slider %}
+{% endblock %}
+{% block main %}
+    <!-- ENDS HEADER -->
+    <!-- MAIN -->
+    <div id="main">
+        <div class="wrapper cf">
+            <!-- featured -->
+            <div class="home-featured">
+                <ul id="filter-buttons">
+                    <li><a href="#" data-filter="*" class="selected">show all</a></li>
+                        {% for cat in catList %}
+                        <li><a href="#" data-filter=".{{cat.name}}">{{cat.name}}</a></li>
+                        {% endfor %}
+                </ul>
+                <!-- Filter container -->
+                <div id="filter-container" class="cf">
+                    {% for cat in catList %}
+                        {% for blog in blogList %}
+                            {% if cat == blog.blogcat%}
+                                <figure class="{{cat.name}}">
+                                    <a href="/blog/single-{{blog.id}}" class="thumb"><img src="{{blog.cover}}" alt="alt" /></a>
+                                    <figcaption>
+                                        <a href="/blog/single-{{blog.id}}"><h3 class="heading">{{blog.title}}</h3></a>
+                                            {{blog.guide}}
+                                    </figcaption>
+                                </figure>
+                            {% endif %}
+                        {% endfor %}
+                    {% endfor %}
+                </div><!-- ENDS Filter container -->
+            </div>
+            <!-- ENDS featured -->
+        </div><!-- ENDS WRAPPER -->
+    </div>
+    <!-- ENDS MAIN -->
+{% endblock %}
