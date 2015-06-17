@@ -1,8 +1,9 @@
 <?php
-
+namespace library;
 use \Phalcon\Events\Event;
 use \Phalcon\Mvc\Dispatcher;
 use Models\Users;
+
 
 class Acl extends \Phalcon\Mvc\User\Component {
 

@@ -9,6 +9,7 @@ $loader->registerNamespaces(
             "Plugins" => APP_PATH . 'apps/plugins',
             "Models" => APP_PATH . 'apps/models',
             "Utils"=> APP_PATH.'apps/utils',
+            "library"=>APP_PATH.'apps/library'
             // 'Snowair\Debugbar' => APP_PATH.'vendor/snowair/phalcon-debugbar/src',  
         )
 );
