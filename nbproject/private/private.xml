@@ -5,9 +5,11 @@
         <group>
             <file>file:/E:/web/phalcon/Apps/Backend/Views/menu/menuList.volt</file>
             <file>file:/E:/web/phalcon/Apps/Backend/Controllers/BlogController.php</file>
+            <file>file:/E:/web/phalcon/Apps/Backend/Views/apothegm/add.volt</file>
             <file>file:/E:/web/phalcon/Apps/Backend/Views/apothegm/list.volt</file>
             <file>file:/E:/web/phalcon/Apps/Models/Menu.php</file>
             <file>file:/E:/web/phalcon/Apps/Backend/Controllers/MenuController.php</file>
+            <file>file:/E:/web/phalcon/Apps/Models/Apothegm.php</file>
             <file>file:/E:/web/phalcon/Apps/Backend/Controllers/LoginController.php</file>
             <file>file:/E:/web/phalcon/Apps/Backend/Views/blog/blogList.volt</file>
             <file>file:/E:/web/phalcon/Apps/Models/Blog.php</file>

@@ -61,25 +61,25 @@ $di->set('profiler', function() {
  */
 $di->set('db', function() use ($config, $di) {
     $eventsManager = new EventsManager();
-    $log_name = '../apps/logs/' . date('Y_m_d') . '_sql.log';
-    if (!file_exists($log_name)) {
-        fopen($log_name, 'w+');
-    }
-    $logger = new FileAdapter($log_name);
-    //Get a shared instance of the DbProfiler
-    $profiler = $di->getProfiler();
-
-
     //Listen all the database events
-    $eventsManager->attach('db', function($event, $connection) use ($logger,$profiler) {
-        if ($event->getType() == 'beforeQuery') {
-            $profiler->startProfile($connection->getSQLStatement());
-            $logger->log($connection->getSQLStatement(), Logger::INFO);
+    if ($config->app->debug) {
+        $log_name = '../apps/logs/' . date('Y_m_d') . '_sql.log';
+        if (!file_exists($log_name)) {
+            fopen($log_name, 'w+');
         }
-        if ($event->getType() == 'afterQuery') {
-            $profiler->stopProfile();
-        }
-    });
+        $logger = new FileAdapter($log_name);
+        //Get a shared instance of the DbProfiler
+        $profiler = $di->getProfiler();
+        $eventsManager->attach('db', function($event, $connection) use ($logger, $profiler) {
+            if ($event->getType() == 'beforeQuery') {
+                $profiler->startProfile($connection->getSQLStatement());
+                $logger->log($connection->getSQLStatement(), Logger::INFO);
+            }
+            if ($event->getType() == 'afterQuery') {
+                $profiler->stopProfile();
+            }
+        });
+    }
 
     $connection = new Connection(array(
         "host" => $config->database->host,
