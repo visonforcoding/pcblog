@@ -6,10 +6,10 @@ $loader = new \Phalcon\Loader();
 //Register some namespaces
 $loader->registerNamespaces(
         array(
-            "Plugins" => APP_PATH . 'apps/plugins',
-            "Models" => APP_PATH . 'apps/models',
-            "Utils"=> APP_PATH.'apps/utils',
-            "library"=>APP_PATH.'apps/library'
+            "Plugins" => APP_PATH . 'Apps/plugins',
+            "Models" => APP_PATH . 'Apps/models',
+            "Utils"=> APP_PATH.'Apps/utils',
+            "library"=>APP_PATH.'Apps/library'
             // 'Snowair\Debugbar' => APP_PATH.'vendor/snowair/phalcon-debugbar/src',  
         )
 );
