@@ -1,6 +1,6 @@
 <?php
 
-//namespace Plugins;
+namespace plugins;
 
 use Phalcon\Events\Event;
 use Phalcon\Mvc\User\Plugin;

@@ -4,6 +4,7 @@ namespace Apps\Frontend;
 
 use Phalcon\Mvc\View\Engine\Volt as VoltEngine;
 use library\Acl;
+use plugins\NotFoundPlugin;
 
 class Module {
 
@@ -31,7 +32,7 @@ class Module {
             //Attach a event listener to the dispatcher
             $eventManager = new \Phalcon\Events\Manager();
             $eventManager->attach('dispatch', new Acl('frontend'));
-            $eventManager->attach('dispatch:beforeException', new \NotFoundPlugin());
+            $eventManager->attach('dispatch:beforeException', new NotFoundPlugin());
 
             $dispatcher->setEventsManager($eventManager);
             $dispatcher->setDefaultNamespace("Apps\Frontend\Controllers\\");
