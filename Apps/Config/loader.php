@@ -7,8 +7,8 @@ $loader = new \Phalcon\Loader();
 $loader->registerNamespaces(
         array(
             "plugins" => APP_PATH . 'Apps/plugins',
-            "Models" => APP_PATH . 'Apps/models',
-            "Utils"=> APP_PATH.'Apps/utils',
+            "Models" => APP_PATH . 'Apps/Models',
+            "Utils"=> APP_PATH.'Apps/Utils',
             "library"=>APP_PATH.'Apps/library'
             // 'Snowair\Debugbar' => APP_PATH.'vendor/snowair/phalcon-debugbar/src',  
         )
