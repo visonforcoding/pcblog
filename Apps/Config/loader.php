@@ -6,7 +6,7 @@ $loader = new \Phalcon\Loader();
 //Register some namespaces
 $loader->registerNamespaces(
         array(
-            "Plugins" => APP_PATH . 'Apps/plugins',
+            "plugins" => APP_PATH . 'Apps/plugins',
             "Models" => APP_PATH . 'Apps/models',
             "Utils"=> APP_PATH.'Apps/utils',
             "library"=>APP_PATH.'Apps/library'
