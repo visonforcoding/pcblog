@@ -39,7 +39,6 @@ class Module {
             return $dispatcher;
         });
 
-
         //Registering the view component
         $di->set('view', function () {
             $view = new \Phalcon\Mvc\View();
@@ -72,6 +71,7 @@ class Module {
                     ));
 
                     $compiler = $volt->getCompiler();
+                    $compiler->addExtension(new \library\PhpFunction());
                     $compiler->addFunction('is_a', 'is_a');
 
                     return $volt;
