@@ -4,6 +4,7 @@
 * Encoding     :   UTF-8
 * Created on   :   2015-4-12 11:32:12 by 曹文鹏 , caowenpeng1990@126.com
 */
+namespace library;
 
 class PhpFunction
 {

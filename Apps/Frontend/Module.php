@@ -53,7 +53,7 @@ class Module {
                         'compiledSeparator' => '_'
                     ));
                     $compiler = $volt->getCompiler();
-                    $compiler->addExtension(new \PhpFunction());
+                    $compiler->addExtension(new \library\PhpFunction());
                     return $volt;
                 }
                     ));
