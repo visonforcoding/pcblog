@@ -12,6 +12,7 @@ use Phalcon\Config\Adapter\Ini as ConfigIni;
 use Phalcon\Logger,
     Phalcon\Db\Adapter\Pdo\Mysql as Connection,
     Phalcon\Logger\Adapter\File;
+use library\Elements;
 
 /**
  * The FactoryDefault Dependency Injector automatically register the right services providing a full stack framework

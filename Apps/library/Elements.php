@@ -1,5 +1,6 @@
 <?php
 
+namespace library;
 use Phalcon\Mvc\User\Component;
 use Models\Blogcat;
 use Models\Menu;
