@@ -4,6 +4,7 @@ namespace Apps\Frontend;
 
 use Phalcon\Mvc\View\Engine\Volt as VoltEngine;
 use library\Acl;
+use library\PhpFunction;
 use plugins\NotFoundPlugin;
 
 class Module {
@@ -52,7 +53,7 @@ class Module {
                         'compiledSeparator' => '_'
                     ));
                     $compiler = $volt->getCompiler();
-                    $compiler->addExtension(new \library\PhpFunction());
+                    $compiler->addExtension(new PhpFunction());
                     return $volt;
                 }
                     ));
