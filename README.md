@@ -1,2 +1,4 @@
-# phalcon
-phalcon框架学习
+# phalcon blog
+phalcon 官方多模块基础上 设计开发 做了较多的结构修改
+博客目前功能基本完成，更多功能后续开发。。
+
