@@ -39,7 +39,7 @@ try {
         ),
         'backend' => array(
             'className' => 'Apps\Backend\Module',
-            'path' => '../Apps/backend/Module.php'
+            'path' => '../Apps/Backend/Module.php'
         )
     ));
 
