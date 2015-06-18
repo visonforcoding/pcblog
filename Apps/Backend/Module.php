@@ -29,7 +29,7 @@ class Module {
 
             //Attach a event listener to the dispatcher
             $eventManager = new \Phalcon\Events\Manager();
-            $eventManager->attach('dispatch', new \Acl('backend'));
+            $eventManager->attach('dispatch', new \library\Acl('backend'));
 
             $dispatcher->setEventsManager($eventManager);
             $dispatcher->setDefaultNamespace("Apps\Backend\Controllers\\");
@@ -49,7 +49,7 @@ class Module {
                         'compiledSeparator' => '_'
                     ));
                     $compiler = $volt->getCompiler();
-                    $compiler->addExtension(new \PhpFunction());
+                    $compiler->addExtension(new \library\PhpFunction());
                     return $volt;
                 }
                     ));
