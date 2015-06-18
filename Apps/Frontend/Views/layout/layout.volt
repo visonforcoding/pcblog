@@ -99,7 +99,7 @@
     <div class="wrapper cf">
         <!-- bottom -->
         <div class="footer-bottom">
-            <div class="left">由 <a href="http://luiszuno.com" >symfony框架基础上纯手写驱动</a></div>
+            <div class="left">由 <a href="http://luiszuno.com" >phalcon框架基础上纯手写驱动</a></div>
         </div>	
         <!-- ENDS bottom -->
     </div>
